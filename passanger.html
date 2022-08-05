@@ -19,130 +19,15 @@
     <link rel="stylesheet" href="css/main.min.css">
   </head>
 <body>
-  <main class="main"> 
+  <main class="main">
 
-<!-- ===============================MODAL FORM DRIVER START===================================== -->
-    <section class="modal-form-driver is-hidden" register-driver>
+    <!-- ===============================PASSANGER HEADER START===================================== -->
+    <section class="passenger">
       <div class="container">
-        
-        <form class="form-driver">
-          <button class="close" type="button" register-driver-close>x</button>
-          <label for="form-driver__route-start" class="form-driver__route-label">
-            <span class="form-driver__title">Trasa&#58;</span>
-            <div class="form-driver__input-space">
-              <input id="form-driver__route-start" type="text" class="form-driver__input" placeholder="Początek trasy"></div>
-          </label>
-          <label for="form-driver__route-end" class="form-driver__route-label">
-            <div class="form-driver__input-space">
-              <input id="form-driver__route-end" type="text" class="form-driver__input" placeholder="Koniec trasy"></div>
-          </label>
-          <label for="form-driver__data" class="form-driver__data-label">
-            <span class="form-driver__title">Data przejazdu&#58;</span>
-            <div class="form-driver__input-space">
-              <input id="form-driver__data" type="text" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__time-zone1" class="form-driver__time-label">
-            <span class="form-driver__title">Godzina odjazdu&#58;</span>
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 1&#58;</span>
-              <input id="form-driver__time-zone1" type="text" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__time-zone1" class="form-driver__time-label">
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 2&#58;</span>
-              <input id="form-driver__time-zone1" type="text" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__time-zone1" class="form-driver__time-label">
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 3&#58;</span>
-              <input id="form-driver__time-zone1" type="text" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__passengers" class="form-driver__passengers-label">
-            <span class="form-driver__title">Ilość pasażerów&#58;</span>
-            <div class="form-driver__input-space">
-              <input id="form-driver__passengers" type="text" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__price-zone1" class="form-driver__price-label">
-            <span class="form-driver__title">Cena dla pasażera&#58;</span>
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 1&#58;</span>
-              <input id="form-driver__price-zone1" type="text" value="3zł" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__price-zone1" class="form-driver__price-label">
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 2&#58;</span>
-              <input id="form-driver__price-zone1" type="text" value="5zł" class="form-driver__input"></div>
-          </label>
-          <label for="form-driver__price-zone1" class="form-driver__price-label">
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 3&#58;</span>
-              <input id="form-driver__price-zone1" type="text" value="7zł" class="form-driver__input"></div>
-          </label>
-
-          <label for="form-driver__locality" class="form-driver__locality-label">
-            <span class="form-driver__title">Miejscowości po drodze&#58;</span>
-            <div class="form-driver__input-space">
-              <input id="form-driver__locality" type="text" class="form-driver__input"></div>
-          </label>
-          <!-- **********************EXAMPLE LOCALIZATION START********************** -->
-          <div class="form-driver__locality-place-stop">
-            <label for="form-driver__locality-town" class="form-driver__locality-label">
-              <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Miejscowość&#58;</span>
-                <input id="form-driver__locality-town" type="text" class="form-driver__input">
-              </div>
-            </label>
-          </div>
-          <div class="form-driver__locality-place-stop">
-            <label for="form-driver__locality-street" class="form-driver__locality-label">
-              <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Ulica&#58;</span>
-                <input id="form-driver__locality-street" type="text" class="form-driver__input">
-              </div>
-            </label>
-          </div>
-          <div class="form-driver__locality-place-stop">
-            <label for="form-driver__locality-number" class="form-driver__locality-label">
-              <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Numer&#58;</span>
-                <input id="form-driver__locality-number" type="number" class="form-driver__input">
-              </div>
-            </label>
-          </div>
-          <div class="form-driver__locality-place-stop">
-            <label for="form-driver__locality-comment" class="form-driver__locality-label">
-              <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Komentarz&#58;</span>
-                <textarea id="form-driver__locality-comment" type="text" class="form-driver__input" placeholder="Jeśli nie podajesz adresu opisz miejsce spotkania"></textarea>
-              </div>
-            </label>
-          </div>
-          <!-- **********************EXAMPLE LOCALIZATION END********************** -->
-          <label for="form-driver__contact" class="form-driver__contact-label">
-            <span class="form-driver__title">Kontakt do Ciebie&#58;</span>
-            <div class="form-driver__input-space">
-              <input id="form-driver__contact" type="text" class="form-driver__input"></div>
-          </label>
-          <button class="button login-form__btn" type="submit">
-            <span class="login-form__btn-title"></span>
-            <a href="index.html" class="login-form__btn-link">Potwierdź</a>
-          </button>
-        </form>
+        <h3 class="passenger__header">Tu możesz zgłosić się jako pasażer</h3>
       </div>
     </section>
-<!-- ===============================MODAL FORM DRIVER END===================================== -->
-
-
-<!-- ===============================DRIVER HEADER START===================================== -->
-    <section class="driver">
-      <div class="container">
-        <h3 class="driver__header">Tu możesz zgłosić się jako kierowca</h3>
-        <button class="driver__btn" register-driver-open>
-          <span class="driver__btn-title">Zgłoś swój przejazd jako kierowca</span>
-        </button>
-      </div>
-    </section>
-<!-- ===============================DRIVER HEADER END===================================== -->
+    <!-- ===============================PASSANGER HEADER END===================================== -->
 
 
 <!-- ===============================REPORTED ROUTES START===================================== -->
@@ -216,6 +101,9 @@
               </ul>
             </div>
           </li>
+          <button class="reported-routes__record-btn-join">
+            <span class="reported-routes__record-btn-title">Dołącz jako pasażer</span>
+          </button>
 
           <li class="reported-routes__item">
             <div class="reported-routes__record">
@@ -283,6 +171,9 @@
               </ul>
             </div>
           </li>
+          <button class="reported-routes__record-btn-join">
+            <span class="reported-routes__record-btn-title">Dołącz jako pasażer</span>
+          </button>
 
           <li class="reported-routes__item">
             <div class="reported-routes__record">
@@ -350,11 +241,15 @@
               </ul>
             </div>
           </li>
+          <button class="reported-routes__record-btn-join">
+            <span class="reported-routes__record-btn-title">Dołącz jako pasażer</span>
+          </button>
 
         </ul>
       </div>
     </section>
 <!-- ===============================REPORTED ROUTES END===================================== -->
+
   </main>
 
     <!-- ==================FOOTER==================== -->
@@ -367,7 +262,6 @@
       </div>
     </footer>
     <!-- ==================END FOOTER==================== -->
-
-    <script src="./js/register-driver.js"></script>
+    
 </body>
 </html>
