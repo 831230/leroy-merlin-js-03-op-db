@@ -1,0 +1,26 @@
+.button-small {
+  @include btn-basic-setup;
+  @include shadow-grey;
+  padding: 3px 0;
+  width: 150px;
+  height: 25px;
+  margin-top: 10px;
+  &:hover,
+  &:focus {
+    @include shadow-white;
+    border: 1px solid $fourthly-color;
+  }
+}
+
+.btn-small-title {
+  color: $secondary-color;
+}
+
+// xxxxxxxxxxxxxx TEMPORARY START xxxxxxxxxxxxx
+.login-form__btn-link,
+.register-form__btn-link {
+  color: $secondary-color;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+// xxxxxxxxxxxxxx TEMPORARY END xxxxxxxxxxxxx

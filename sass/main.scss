@@ -1,5 +1,12 @@
 @import "./utils/variables";
+@import "./utils/mixins-global";
 
 @import "./base/common";
 @import "./base/container";
 
+@import "./component/buttons";
+@import "./component/buttons-big";
+
+@import "./layout/index/choose-action";
+
+@import "./pages/index/login-header";

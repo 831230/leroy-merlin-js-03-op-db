@@ -1,0 +1,47 @@
+@mixin box {
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+
+  border: 1px solid rgb(67, 85, 112);
+  border-radius: 8px;
+  max-width: 400px;
+  // background-color: $main-color;
+  background-color: transparentize($color: $main-color, $amount: 0.1);
+  -webkit-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  transition: all 500ms;
+
+  &:hover,
+  &:focus {
+    -webkit-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+    -moz-box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+    box-shadow: 2px 5px 16px -6px rgb(111, 162, 221);
+  }
+}
+
+@mixin headers-h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+@mixin shadow-grey {
+  -webkit-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+  box-shadow: 2px 5px 16px -6px rgba(66, 68, 90, 1);
+}
+
+@mixin shadow-white {
+  -webkit-box-shadow: 2px 5px 16px -6px rgb(255, 255, 255);
+  -moz-box-shadow: 2px 5px 16px -6px rgb(255, 255, 255);
+  box-shadow: 2px 5px 16px -6px rgb(255, 255, 255);
+}
+
+@mixin btn-basic-setup {
+  border-radius: 8px;
+  border: none;
+  background-color: $thirdly-color;
+  transition: all 500ms;
+}
