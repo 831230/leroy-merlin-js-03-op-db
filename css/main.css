@@ -236,7 +236,7 @@ button {
 .hero .container {
   padding: 20px 30px;
   min-height: 320px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url(../../../images/road_with_signpost_and_handshake480.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url(../images/road_with_signpost_and_handshake480.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
