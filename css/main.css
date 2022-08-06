@@ -167,6 +167,65 @@ button {
   box-shadow: 2px 5px 16px -6px white;
 }
 
+.form-driver__title {
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+}
+
+.form-driver__subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #949494;
+  margin-left: 15px;
+}
+
+.form-driver__input {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  height: 20px;
+  color: #555;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #e6e6e6;
+  transition: all 500ms;
+}
+
+.form-driver__input:hover, .form-driver__input:focus {
+  border: 1px solid red;
+  background-color: white;
+}
+
+.form-driver__input-space {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 250px;
+  border-radius: 8px;
+  transition: all 500ms;
+  -webkit-box-shadow: 2px 5px 16px -6px #42445a;
+  -moz-box-shadow: 2px 5px 16px -6px #42445a;
+  box-shadow: 2px 5px 16px -6px #42445a;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.form-driver__input-space:hover, .form-driver__input-space:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px white;
+  -moz-box-shadow: 2px 5px 16px -6px white;
+  box-shadow: 2px 5px 16px -6px white;
+}
+
+#form-driver__locality-comment {
+  min-height: 60px;
+}
+
 .choose-action__space {
   margin: 0 auto;
   padding: 30px 20px;
@@ -286,6 +345,34 @@ button {
     background-size: cover;
     background-position: center;
   }
+}
+
+.form-driver {
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px solid #435570;
+  border-radius: 8px;
+  max-width: 400px;
+  background-color: rgba(120, 190, 32, 0.9);
+  -webkit-box-shadow: 2px 5px 16px -6px #42445a;
+  -moz-box-shadow: 2px 5px 16px -6px #42445a;
+  box-shadow: 2px 5px 16px -6px #42445a;
+  transition: all 500ms;
+  text-align: left;
+  position: relative;
+}
+
+.form-driver:hover, .form-driver:focus {
+  -webkit-box-shadow: 2px 5px 16px -6px #6fa2dd;
+  -moz-box-shadow: 2px 5px 16px -6px #6fa2dd;
+  box-shadow: 2px 5px 16px -6px #6fa2dd;
+}
+
+.form-driver__btn {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
 }
 
 .choose-action__header {

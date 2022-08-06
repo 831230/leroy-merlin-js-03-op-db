@@ -1,0 +1,11 @@
+.form-driver {
+  @include box;
+  text-align: left;
+  position: relative;
+}
+
+.form-driver__btn {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}

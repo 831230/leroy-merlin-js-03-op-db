@@ -26,7 +26,7 @@
       <div class="container">
         
         <form class="form-driver">
-          <button class="close" type="button" register-driver-close>x</button>
+          <button class="btn-close" type="button" register-driver-close>x</button>
           <label for="form-driver__route-start" class="form-driver__route-label">
             <span class="form-driver__title">Trasa&#58;</span>
             <div class="form-driver__input-space">
@@ -42,19 +42,19 @@
               <input id="form-driver__data" type="text" class="form-driver__input"></div>
           </label>
           <label for="form-driver__time-zone1" class="form-driver__time-label">
-            <span class="form-driver__title">Godzina odjazdu&#58;</span>
+            <p class="form-driver__title">Godzina odjazdu&#58;</p>
+            <span class="form-driver__subtitle">Strefa 1&#58;</span>
             <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 1&#58;</span>
               <input id="form-driver__time-zone1" type="text" class="form-driver__input"></div>
           </label>
           <label for="form-driver__time-zone1" class="form-driver__time-label">
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 2&#58;</span>
+            <span class="form-driver__subtitle">Strefa 2&#58;</span>
+            <div class="form-driver__input-space">  
               <input id="form-driver__time-zone1" type="text" class="form-driver__input"></div>
           </label>
           <label for="form-driver__time-zone1" class="form-driver__time-label">
+            <span class="form-driver__subtitle">Strefa 3&#58;</span>
             <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 3&#58;</span>
               <input id="form-driver__time-zone1" type="text" class="form-driver__input"></div>
           </label>
           <label for="form-driver__passengers" class="form-driver__passengers-label">
@@ -63,19 +63,19 @@
               <input id="form-driver__passengers" type="text" class="form-driver__input"></div>
           </label>
           <label for="form-driver__price-zone1" class="form-driver__price-label">
-            <span class="form-driver__title">Cena dla pasażera&#58;</span>
+            <p class="form-driver__title">Cena dla pasażera&#58;</p>
+            <span class="form-driver__subtitle">Strefa 1&#58;</span>
             <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 1&#58;</span>
               <input id="form-driver__price-zone1" type="text" value="3zł" class="form-driver__input"></div>
           </label>
           <label for="form-driver__price-zone1" class="form-driver__price-label">
+            <span class="form-driver__subtitle">Strefa 2&#58;</span>
             <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 2&#58;</span>
               <input id="form-driver__price-zone1" type="text" value="5zł" class="form-driver__input"></div>
           </label>
           <label for="form-driver__price-zone1" class="form-driver__price-label">
-            <div class="form-driver__input-space">
-              <span class="form-driver__subtitle">Strefa 3&#58;</span>
+            <span class="form-driver__subtitle">Strefa 3&#58;</span>
+            <div class="form-driver__input-space">  
               <input id="form-driver__price-zone1" type="text" value="7zł" class="form-driver__input"></div>
           </label>
 
@@ -87,32 +87,32 @@
           <!-- **********************EXAMPLE LOCALIZATION START********************** -->
           <div class="form-driver__locality-place-stop">
             <label for="form-driver__locality-town" class="form-driver__locality-label">
+              <span class="form-driver__subtitle">Miejscowość&#58;</span>
               <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Miejscowość&#58;</span>
                 <input id="form-driver__locality-town" type="text" class="form-driver__input">
               </div>
             </label>
           </div>
           <div class="form-driver__locality-place-stop">
             <label for="form-driver__locality-street" class="form-driver__locality-label">
+              <span class="form-driver__subtitle">Ulica&#58;</span>
               <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Ulica&#58;</span>
                 <input id="form-driver__locality-street" type="text" class="form-driver__input">
               </div>
             </label>
           </div>
           <div class="form-driver__locality-place-stop">
             <label for="form-driver__locality-number" class="form-driver__locality-label">
+              <span class="form-driver__subtitle">Numer&#58;</span>
               <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Numer&#58;</span>
                 <input id="form-driver__locality-number" type="number" class="form-driver__input">
               </div>
             </label>
           </div>
           <div class="form-driver__locality-place-stop">
             <label for="form-driver__locality-comment" class="form-driver__locality-label">
+              <span class="form-driver__subtitle">Komentarz&#58;</span>
               <div class="form-driver__input-space">
-                <span class="form-driver__subtitle">Komentarz&#58;</span>
                 <textarea id="form-driver__locality-comment" type="text" class="form-driver__input" placeholder="Jeśli nie podajesz adresu opisz miejsce spotkania"></textarea>
               </div>
             </label>
@@ -123,8 +123,8 @@
             <div class="form-driver__input-space">
               <input id="form-driver__contact" type="text" class="form-driver__input"></div>
           </label>
-          <button class="button login-form__btn" type="submit">
-            <span class="login-form__btn-title"></span>
+          <button class="button-small form-driver__btn" type="submit">
+            <span class="btn-small-title form-driver__btn-title"></span>
             <a href="index.html" class="login-form__btn-link">Potwierdź</a>
           </button>
         </form>
