@@ -1,3 +1,8 @@
 .driver .container {
+  background-image: url(../images/bc.jpg);
+  background-repeat: repeat;
+}
+
+.driver-header__space {
   @include box;
 }
