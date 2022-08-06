@@ -1,0 +1,13 @@
+.aboute__description {
+  @include box;
+  @include descriptions;
+  // @include shadow-white;
+  border: 1px solid $fourthly-color;
+}
+
+.aboute__description-second {
+  @include box;
+  @include descriptions;
+  margin-top: 10px;
+  border: 1px solid $fourthly-color;
+}

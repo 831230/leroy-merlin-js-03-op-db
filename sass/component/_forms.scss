@@ -1,0 +1,16 @@
+.login-form__title {
+  @include forms-title;
+}
+
+.register-form__title {
+  @include forms-title;
+}
+
+.form-input {
+  @include forms-input;
+}
+
+.form-space {
+  @include forms-input-space;
+  @include shadow-grey;
+}

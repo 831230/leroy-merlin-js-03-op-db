@@ -1,0 +1,16 @@
+.hero {
+  background-color: $thirdly-color;
+}
+
+.hero .container {
+  padding: 20px 30px;
+  // max-width: 480px;
+  min-height: 320px;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.2),
+    rgba(47, 48, 58, 0.2)),
+    url(../../../images/road_with_signpost_and_handshake480.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

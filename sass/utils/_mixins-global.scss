@@ -1,6 +1,6 @@
 @mixin box {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 30px 20px;
   text-align: center;
 
   border: 1px solid rgb(67, 85, 112);
@@ -44,4 +44,66 @@
   border: none;
   background-color: $thirdly-color;
   transition: all 500ms;
+}
+
+@mixin btn-big-title {
+  color: $secondary-color;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+// ======================FORMS START==========================
+
+@mixin forms-title {
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  font-weight: 600;
+  font-size: 12px;
+  color: $secondary-color;
+}
+
+@mixin forms-input {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  height: 20px;
+  color: $color-font-theme1;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: $color-bc-forms;
+  transition: all 500ms;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $fourthly-color;
+    background-color: $secondary-color;
+  }
+}
+
+@mixin forms-input-space {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 250px;
+  border-radius: 8px;
+  transition: all 500ms;
+
+  &:hover,
+  &:focus {
+    -webkit-box-shadow: 2px 5px 16px -6px rgb(255, 255, 255);
+    -moz-box-shadow: 2px 5px 16px -6px rgb(255, 255, 255);
+    box-shadow: 2px 5px 16px -6px rgb(255, 255, 255);
+  }
+}
+
+// ======================FORMS END==========================
+
+@mixin descriptions {
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: $color-font-theme2;
+  line-height: 1.3;
 }

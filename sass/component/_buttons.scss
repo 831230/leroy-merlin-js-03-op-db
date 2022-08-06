@@ -24,3 +24,23 @@
   font-weight: 500;
 }
 // xxxxxxxxxxxxxx TEMPORARY END xxxxxxxxxxxxx
+
+.btn-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: transparentize($color: $main-color, $amount: 0.1);
+  transition: all 500ms;
+  &:hover,
+  &:focus {
+    border: 1px solid $fourthly-color;
+    background-color: $thirdly-color;
+    color: $secondary-color;
+  }
+}

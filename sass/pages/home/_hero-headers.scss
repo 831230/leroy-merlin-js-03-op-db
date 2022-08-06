@@ -1,0 +1,16 @@
+.hero__header {
+  color: transparentize($color: $main-color, $amount: 0);
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.hero__header-second {
+  margin-top: 70px;
+  text-align: right;
+  // margin-left: 200px;
+}
+
+.hero__header-third {
+  margin-top: 70px;
+  margin-left: 60px;
+}

@@ -3,9 +3,12 @@
 }
 
 .login__space {
-  @include box
+  @include box;
+  position: relative;
+  
 }
 
 .register__space {
   @include box;
+  position: relative;
 }
