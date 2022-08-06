@@ -1,0 +1,14 @@
+.passenger .container {
+    background-image: url(../images/bc.jpg);
+    background-repeat: repeat;
+    padding: 20px 0;
+}
+
+.passenger-header__space {
+    @include box;
+}
+
+.passenger__header {
+    @include headers-h3;
+    line-height: 1.5;
+}

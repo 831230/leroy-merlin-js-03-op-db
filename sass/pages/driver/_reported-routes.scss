@@ -9,6 +9,10 @@
   text-align: left;
 }
 
+.reported-routes__record-item {
+  margin-bottom: 15px;
+}
+
 .reported-routes__record-item-description {
   @include descriptions;
   padding-right: 20px
