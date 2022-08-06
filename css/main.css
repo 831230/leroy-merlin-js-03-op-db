@@ -234,7 +234,7 @@ button {
 }
 
 .hero .container {
-  padding: 20px 30px;
+  padding: 40px 30px;
   min-height: 320px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url(../images/road_with_signpost_and_handshake480.jpg);
   background-repeat: no-repeat;
@@ -242,8 +242,20 @@ button {
   background-position: center;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero .container {
+    padding: 40px 30px;
+    min-height: 320px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.2)), url(../images/road_with_signpost_and_handshake960@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
 .aboute .container {
-  background-color: black;
+  background-image: url(../images/bc.jpg);
+  background-repeat: repeat;
   padding: 20px;
 }
 
@@ -252,6 +264,28 @@ button {
   padding: 20px;
   display: flex;
   justify-content: space-around;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .container {
+  padding: 30px;
+  min-height: 120px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.5)), url(../images/bc_them480.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .footer .container {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.5)), url(../images/bc_them960@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .choose-action__header {
@@ -337,5 +371,27 @@ button {
   -webkit-box-shadow: 2px 5px 16px -6px #6fa2dd;
   -moz-box-shadow: 2px 5px 16px -6px #6fa2dd;
   box-shadow: 2px 5px 16px -6px #6fa2dd;
+}
+
+.footer__contact-title {
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #949494;
+  margin-bottom: 15px;
+}
+
+.footer__contact-link {
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(250, 252, 231, 0.7);
+  transition: all 500ms;
+}
+
+.footer__contact-link:hover, .footer__contact-link:focus {
+  color: rgba(255, 0, 0, 0.5);
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
