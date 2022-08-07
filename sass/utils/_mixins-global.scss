@@ -125,7 +125,7 @@
 }
 
 @mixin center-screen {
-  position: absolute;
+  position: fixed;
   left: 50vw;
   top: 50vh;
   transform: translateY(-50%);

@@ -249,7 +249,7 @@ button {
 }
 
 .choose-action {
-  position: absolute;
+  position: fixed;
   left: 50vw;
   top: 50vh;
   transform: translateY(-50%);
@@ -257,7 +257,7 @@ button {
 }
 
 .login {
-  position: absolute;
+  position: fixed;
   left: 50vw;
   top: 50vh;
   transform: translateY(-50%);
@@ -265,7 +265,7 @@ button {
 }
 
 .register {
-  position: absolute;
+  position: fixed;
   left: 50vw;
   top: 50vh;
   transform: translateY(-50%);
