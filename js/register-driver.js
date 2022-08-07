@@ -31,7 +31,7 @@
     closeDriverFormBtn: document.querySelector("[register-driver-close]"),
     openDriverFormBtn: document.querySelector("[register-driver-open]"),
 
-    backdropOnSection: document.querySelector(".modal-form-driver"),
+    backdropOnSection: document.querySelector(".backdrop-temp"),
   };
 
   registerDriver.openDriverFormBtn.addEventListener("click", toggleDriverForm);

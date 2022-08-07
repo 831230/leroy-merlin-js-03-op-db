@@ -2,7 +2,10 @@
   @include box;
   text-align: left;
   position: absolute;
-  width: 300px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
 }
 
 .form-driver__btn {
@@ -12,7 +15,11 @@
 }
 
 .backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: transparentize($color: $main-color, $amount: 0.5);
+  background-color: transparentize($color: $thirdly-color, $amount: 0.3);
+  transition: all 1000ms;
 }
