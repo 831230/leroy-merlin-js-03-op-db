@@ -1,3 +1,14 @@
+// =======================IS HIDDEN=========================
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+// =======================IS HIDDEN END=========================
+
+
+
+// ============================INDEX START===========================
 .login-form__title {
   @include forms-title;
 }

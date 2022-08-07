@@ -1,4 +1,16 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 body {
+  position: relative;
   font-family: "Saira Semi Condensed", sans-serif;
   color: #555;
 }
@@ -119,6 +131,12 @@ button {
   letter-spacing: 1.5px;
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .login-form__title {
   text-transform: uppercase;
   letter-spacing: 2.8px;
@@ -228,6 +246,30 @@ button {
 
 #form-driver__locality-comment {
   min-height: 60px;
+}
+
+.choose-action {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.login {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.register {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
 }
 
 .choose-action__space {

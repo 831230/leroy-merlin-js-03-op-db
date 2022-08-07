@@ -123,3 +123,11 @@
   font-size: 14px;
   color: $secondary-color;
 }
+
+@mixin center-screen {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}

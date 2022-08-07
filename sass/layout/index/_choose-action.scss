@@ -1,3 +1,15 @@
+.choose-action {
+  @include center-screen;
+}
+
+.login {
+  @include center-screen;
+}
+
+.register {
+  @include center-screen;
+}
+
 .choose-action__space {
   @include box;
 }

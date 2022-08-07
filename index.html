@@ -20,15 +20,15 @@
   </head>
   <body>
 <!-- =================================CHOOSE ACTION START=============================== -->
-    <section class="choose-action">
+    <section class="choose-action" choose-action>
       <div class="container">
         <div class="choose-action__space">
           <h3 class="choose-action__header">Zaloguj się lub utwórz konto</h3>
           <div class="choose-action__active-space">
-            <button type="button" class="button-big choose-action__btn">
+            <button type="button" class="button-big choose-action__btn" login-app-open>
               <span class="btn-big-title choose-action__login">Logowanie</span>
             </button>
-            <button type="button" class="button-big choose-action__btn">
+            <button type="button" class="button-big choose-action__btn" register-app-open>
               <span class="btn-big-title choose-action__login">Rejestracja</span>
             </button>
           </div>
@@ -39,7 +39,7 @@
 
 
 <!-- =================================LOGIN FORM START=============================== -->
-    <section class="login">
+    <section class="login is-hidden" login-app-section>
       <div class="container">
         <div class="login__space">
           <button class="btn-close" type="button" login-app-close>x</button>
@@ -69,7 +69,7 @@
 <!-- =================================LOGIN FORM END=============================== -->
 
 <!-- =================================REGISTER FORM START=============================== -->
-    <section class="register">
+    <section class="register is-hidden" register-section>
       <div class="container">
         <div class="register__space">
           <button class="btn-close" type="button" register-app-close>x</button>
@@ -113,5 +113,6 @@
     </section>
 <!-- =================================REGISTER FORM END=============================== -->
 
+    <script src="./js/login-app.js"></script>
   </body>
 </html>
