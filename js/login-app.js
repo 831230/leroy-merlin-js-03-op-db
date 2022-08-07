@@ -9,15 +9,18 @@
     closeRegisterAppBtn: document.querySelector("[register-app-close]"),
   };
 
-    loginApp.openLoginAppBtn.addEventListener("click", toggleModal);
-    loginApp.closeLoginAppBtn.addEventListener("click", toggleModal);
-    loginApp.openRegisterAppBtn.addEventListener("click", toggleModal);
-    loginApp.closeRegisterAppBtn.addEventListener("click", toggleModal);
+  loginApp.openLoginAppBtn.addEventListener("click", toggleModalLogin);
+  loginApp.closeLoginAppBtn.addEventListener("click", toggleModalLogin);
+  loginApp.openRegisterAppBtn.addEventListener("click", toggleModalRegister);
+  loginApp.closeRegisterAppBtn.addEventListener("click", toggleModalRegister);
 
-  function toggleModal() {
-      loginApp.chooseActionSection.classList.toggle("is-hidden");
-      loginApp.modalLoginApp.classList.toggle("is-hidden");
-      loginApp.modalRegisterApp.classList.toggle("is-hidden");
-      
-  }
+  function toggleModalLogin() {
+    loginApp.chooseActionSection.classList.toggle("is-hidden");
+    loginApp.modalLoginApp.classList.toggle("is-hidden");
+    };
+
+    function toggleModalRegister() {
+        loginApp.chooseActionSection.classList.toggle("is-hidden");
+        loginApp.modalRegisterApp.classList.toggle("is-hidden");
+    };
 })();
