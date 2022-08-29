@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "sqlite",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/831230/leroy-merlin-js-03-op-db.git"
+  },
+  "author": "Tomasz Bielecki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/831230/leroy-merlin-js-03-op-db/issues"
+  },
+  "homepage": "https://github.com/831230/leroy-merlin-js-03-op-db#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.11"
+  }
+}
