@@ -1,6 +1,6 @@
 import { User } from "./users-base.js";
 
-// const sqlite3 = require("sqlite3").verbose();
+const sqlite3 = require("sqlite3").verbose();
 // import { sqlite3 } from ""
 
 // const dataBase = new sqlite3.Database("../base.db");
@@ -29,7 +29,7 @@ const $registerSurame = document.querySelector(".register-form__surname-input");
 const $registerEmail = document.querySelector(".register-form__email-input");
 const $registerPassword = document.querySelector(
   ".register-form__password-input"
-);
+); 
 
 const registeredUsersArr = [];
 $registerForm.addEventListener("submit", function (evt) {
